@@ -37,7 +37,7 @@ def kerb() {
 def call( Map args ) {
     node {
       stage('Kerb') {
-        
+        sh 'cat /usr/share/jenkins/ref/jaas1.conf'
         kerb()
       }
     }
