@@ -34,8 +34,8 @@ def kerb() {
 }
 
 
-def call(  ) {
-    node('default') {
+def call( Map args ) {
+    node {
         kerb()
     }
 }
