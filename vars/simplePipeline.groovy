@@ -34,7 +34,7 @@ def kerb() {
 }
 
 
-def call( context ) {
+def call(  ) {
     node('default') {
         kerb()
     }
