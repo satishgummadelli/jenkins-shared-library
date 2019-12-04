@@ -1,7 +1,11 @@
 
 pipeline {
 
-
+agent {
+            node {
+                label 'terraform'
+            }
+        }
   stages {
 
     stage('checkout') {
